@@ -2,7 +2,7 @@ shader_type spatial;
 
 uniform float camera_roll_offset = 9.0;
 uniform sampler2D texturemap : hint_albedo;
-uniform vec2 texture_scale = vec2(20.0, 20.0);
+uniform vec2 texture_scale = vec2(1.0, 1.0);
 
 void vertex() {
 	vec4 world = WORLD_MATRIX * vec4(VERTEX, 1.0);
