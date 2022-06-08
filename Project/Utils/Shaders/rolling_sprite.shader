@@ -1,6 +1,6 @@
 shader_type spatial;
 
-uniform float camera_offset;
+uniform float camera_offset = 9.0;
 uniform bool billboard;
 uniform float billboard_degrees;
 uniform sampler2D texturemap : hint_albedo;
