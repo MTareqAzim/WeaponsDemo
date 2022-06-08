@@ -317,6 +317,10 @@ _global_script_class_icons={
 config/name="WeaponsDemo"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/height=576
+
 [importer_defaults]
 
 texture={
